@@ -212,7 +212,7 @@ const (
 	//
 	// See Postgres SSL docs for more info:
 	// https://www.postgresql.org/docs/current/libpq-ssl.html
-	SSLModeVerifyCA = "verify-ca"
+	SSLModeVerifyCA = "disable"
 	// pgServiceFile is the default name of the Postgres service file.
 	pgServiceFile = ".pg_service.conf"
 )
